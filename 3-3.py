@@ -1,5 +1,5 @@
 import streamlit as st
-import openai as OpenAI
+
 
 st.title("화원고등학교 3-3을 위한 웹페이지")
 
@@ -17,7 +17,7 @@ with tab1:
 with tab2:
     # tab B를 누르면 표시될 내용
     st.subheader('3학년 3반')
-    st.markdown(':red[**생일 축하해요^^**]')
+    st.markdown(':red[**생일 매우 축하해요^^**]')
 
 with tab3:
     # tab B를 누르면 표시될 내용
