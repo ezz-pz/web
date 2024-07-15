@@ -10,14 +10,14 @@ with tab1:
     # tab A 를 누르면 표시될 내용
     st.write("")
     st.subheader('화원고등학교')
-    st.markdown("오늘의 급식 메뉴")
-    st.image("https://image.toast.com/aaaaayz/prod/article/124540118/1_1626237241.jpeg")
-    st.write("현미밥, 닭다리삼계탕, 불향불고기, 실곤약야채무침, 석박지, 수박")
+    st.markdown("7/16 오늘의 급식 메뉴")
+    st.write("기장밥, 맑은어묵국, 청경채맛살무침, 돈큐브스테이크, 배추김치, 요구르트")
 
 with tab2:
     # tab B를 누르면 표시될 내용
     st.subheader('3학년 3반')
-    st.markdown(':red[**생일 매우 축하해요^^**]')
+    st.markdown(':red[**생일 축하해요~~**]')
+    
 
 with tab3:
     # tab B를 누르면 표시될 내용
