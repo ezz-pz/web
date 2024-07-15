@@ -55,5 +55,7 @@ with tab4:
         st.write("추가모집")
 
     tx=st.text_input("본인 스스로에게 해주고 싶은 응원의 말은?")
-    st.write(tx,"! 힘내자!")
+    if tx != '' :
+        st.subheader(tx + '! 힘내자!')
+
 
