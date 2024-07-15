@@ -22,6 +22,7 @@ with tab2:
 with tab3:
     # tab B를 누르면 표시될 내용
     st.subheader('화원고등학교 학사 일정')
+    st.write('7/19 방학식')
 
 with tab4:
     st.title("대학 입시 정보")
