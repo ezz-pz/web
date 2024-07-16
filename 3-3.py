@@ -70,29 +70,34 @@ with tab3:
     st.write('7/20~8/6 여름방학')
     st.write('8/7 개학식')
     st.write('8/15 광복절')
+    st.write('9/16~18 추석 연휴')
+    st.write('10/3 개천절')
+    st.write('10/9 한글날')
+    st.write('11/14 대학수학능력시험')
+    st.write('12/25 크리스마스')
+    st.write('12/31 졸업식')
+
+
+
+
 
 
 with tab4:
     st.title("대학 입시 정보")
     st.caption("3학년들 올해만 잘 버티자")
-    option=st.selectbox('월별 입시 정보 선택',('7월','8월','9월','10월','11월','12월','1월','2월'))
-    st.subheader('**'+str(option)+'의 입시 정보**')
-    if option=="7월":
+    select=['입시 일정-4년제 대학','입시 일정-2,3년제 대학','수도권 대학','대구경북 지역 대학','비수도권 대학']
+    option=st.selectbox('열람할 입시 정보를 선택하세요',select)
+    st.subheader('**'+str(option)+'**')
+    if option==select[0]:
         st.write("으에에")
-    elif option=="8월":
+    elif option==select[1]:
         st.write("방학축하")
-    elif option=="9월":
+    elif option==select[2]:
         st.write("수시원서접수")
-    elif option=="10월":
+    elif option==select[3]:
         st.write("10월의 어느 멋진 날에")
-    elif option=="11월":
-        st.write("수능")
-    elif option=="12월":
-        st.write("대학 면접")
-    elif option=="1월":
-        st.write("합격 결과")
-    elif option=="2월":
-        st.write("추가모집")
+    elif option==select[4]:
+        st.write("비수도권 대학")
 
     tx=st.text_input("#본인 스스로에게 해주고 싶은 응원의 말은?")
     if tx != '' :
