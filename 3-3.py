@@ -87,10 +87,9 @@ with tab4:
     st.caption("3학년들 올해만 잘 버티자")
     select=['선택하세요','입시 일정-4년제 대학','입시 일정-2,3년제 대학','수도권 대학','대구경북 지역 대학','비수도권 대학']
     option=st.selectbox('열람할 입시 정보를 선택하세요',select)
-    st.subheader('**'+str(option)+'**')
-    if option==select[0]:
-        st.write(" ")
-    elif option==select[1]:
+    if option!=select[0]:
+        st.subheader('**'+str(option)+'**')
+    if option==select[1]:
         st.write("방학축하")
     elif option==select[2]:
         st.write("수시원서접수")
