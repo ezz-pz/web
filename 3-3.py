@@ -20,7 +20,7 @@ with tab2:
     st.subheader('3학년 3반')
     st.markdown(':red[**생일 축하해요~~!!🎉**]')
     month = st.slider('월',1,12,step=1)
-    st.markdown(month, '월의 생일자는?')
+    st.markdown('str(month)+월의 생일자는?')
     if month==1:
         st.write("16일 신정원")
         st.write("21일 곽승훈")
