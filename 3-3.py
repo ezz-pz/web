@@ -21,7 +21,9 @@ with tab2:
     st.markdown(':red[**생일 축하해요~~!!🎉**]')
     month = st.slider('월을 선택하세요.',1,12,step=1)
     st.success(''+str(month)+'월의 생일자는?')
-
+    if month==1:
+        st.write("16일 신정원")
+        st.write("21일 곽승훈")
 
 
     
