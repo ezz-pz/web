@@ -24,6 +24,41 @@ with tab2:
     if month==1:
         st.write("16일 신정원")
         st.write("21일 곽승훈")
+    elif month==2:
+        st.write("1일 전혜진")
+        st.write("5일 이지원")
+        st.write("22일 김지수")
+    elif month==3:
+        st.write("2일 이지훈")
+        st.write("14일 서정빈")
+    elif month==4:
+        st.write("10일 이수민")
+        st.write("15일 이소윤")
+    elif month==5:
+        st.write("14일 조재영")
+    elif month==6:
+        st.write("23일 배기탁")
+    elif month==7:
+        st.write("4일 문지수")
+        st.write("5일 정민경")
+        st.write("26일 서상현")
+        st.write("28일 유영재")
+    elif month==8:
+        st.write("3일 이민수")
+        st.write("4일 김환희")
+        st.write("13일 이동건")
+        st.write("21일 오예승")
+    elif month==9:
+        st.write("28일 강민찬")
+    elif month==10:
+        st.write("16일 김윤휘")
+    elif month==11:
+        st.write("25일 장은빈")
+        st.write("29일 박재환")
+    elif month==12:
+        st.write("27일 함아린")
+
+
 
 
     
