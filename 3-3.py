@@ -85,20 +85,21 @@ with tab3:
 with tab4:
     st.title("대학 입시 정보")
     st.caption("3학년들 올해만 잘 버티자")
-    select=['입시 일정-4년제 대학','입시 일정-2,3년제 대학','수도권 대학','대구경북 지역 대학','비수도권 대학']
+    select=['선택하세요','입시 일정-4년제 대학','입시 일정-2,3년제 대학','수도권 대학','대구경북 지역 대학','비수도권 대학']
     option=st.selectbox('열람할 입시 정보를 선택하세요',select)
     st.subheader('**'+str(option)+'**')
     if option==select[0]:
-        st.write("으에에")
+        st.write(" ")
     elif option==select[1]:
         st.write("방학축하")
     elif option==select[2]:
         st.write("수시원서접수")
     elif option==select[3]:
-        st.write("10월의 어느 멋진 날에")
+        st.write("1kkk")
     elif option==select[4]:
-        st.write("비수도권 대학")
-
+        st.write("jjjj")
+    elif option==select[5]:
+        st.write("dmddkk")
     tx=st.text_input("#본인 스스로에게 해주고 싶은 응원의 말은?")
     if tx != '' :
         st.subheader(tx + '! 힘내자!')
