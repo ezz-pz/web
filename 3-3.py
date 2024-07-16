@@ -76,7 +76,7 @@ with tab4:
     st.title("대학 입시 정보")
     st.caption("3학년들 올해만 잘 버티자")
     option=st.selectbox('월별 입시 정보 선택',('7월','8월','9월','10월','11월','12월','1월','2월'))
-    st.subheader('**',option,'월의 입시 정보**')
+    st.subheader('**'+str(option)+'월의 입시 정보**')
     if option=="7월":
         st.write("으에에")
     elif option=="8월":
