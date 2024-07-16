@@ -19,8 +19,8 @@ with tab2:
     # tab B를 누르면 표시될 내용
     st.subheader('3학년 3반')
     st.markdown(':red[**생일 축하해요~~!!🎉**]')
-    month = st.slider('월',1,12,step=1)
-    st.markdown(''+str(month)+'월의 생일자는?')
+    month = st.slider('월을 선택하세요.',1,12,step=1)
+    st.success(''+str(month)+'월의 생일자는?')
 
 
 
