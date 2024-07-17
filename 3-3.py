@@ -10,9 +10,16 @@ with tab1:
     # tab A 를 누르면 표시될 내용
     st.write("")
     st.subheader('화원고등학교')
-    st.markdown("7/16 오늘의 급식 메뉴 🤤")
+    st.markdown("7/17 오늘의 점심 메뉴 🤤")
     st.markdown(" ")
-    st.markdown("기장밥, 맑은어묵국, 청경채맛살무침, 돈큐브스테이크, 배추김치, 요구르트")
+    st.markdown("비빔밥, 근대된장국, 계란찜, 동인동식찜갈비, 배추김치, 고추장볶이, 아이스슈")
+    st.markdown(" ")
+    st.markdown(" ")
+    st.markdown("7/17 석식 메뉴 🤤")
+    st.markdown(" ")
+    st.markdown("백미밥, 돼지국밥, 오미산적, 양념꼬치어묵, 부추겉절이, 깍두기, 약과")
+
+
 
 
 with tab2:
