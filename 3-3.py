@@ -97,7 +97,7 @@ with tab4:
     if option!=select[0]:
         st.subheader('**'+str(option)+'**')
     if option==select[1]:
-   `    st.markdown(':red[**수시**]')
+        st.markdown(':red[**수시**]')
         st.write("학생부작성 기준일: 2024. 08.31(토)")
         st.write("학생부작성 기준일: 2024. 08.31(토)")
 
